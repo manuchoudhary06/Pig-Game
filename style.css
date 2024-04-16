@@ -56,6 +56,17 @@ main {
   margin-bottom: 1rem;
 }
 
+.total-score{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total{
+    font-size: 3rem;
+    color: #fff;
+}
+
 .score {
   font-size: 8rem;
   font-weight: 300;
@@ -164,4 +175,8 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.hidden{
+    display: none;
 }
